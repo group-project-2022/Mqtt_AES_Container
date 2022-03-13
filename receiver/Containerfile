@@ -1,0 +1,11 @@
+
+FROM docker.io/library/python
+
+WORKDIR /data_volume
+
+ADD receive_file.py .
+
+RUN pip3 install pycryptodome
+RUN pip install paho.mqtt 
+
+CMD ["python","./receive_file.py"]
