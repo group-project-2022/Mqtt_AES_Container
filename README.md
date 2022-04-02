@@ -1,5 +1,5 @@
 # Mqtt_AES_Container
-Implementation of an MQTT client-server service to send and receive encrypted files
+Implementation of an MQTT client-server service to send and receive encrypted files.   
 Containerization and deployment of this application in a container.
 
 ![image](https://user-images.githubusercontent.com/15292237/158055197-f75a7abf-e792-461c-9817-53df660de3d9.png)
